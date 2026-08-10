@@ -19,6 +19,13 @@ This is an adapted and expanded derivative of [Jared Rhodenizer’s AI Memory Va
 2. Answer its discovery questions and confirm the proposed structure before it writes anything.
 3. Put the generated boot guidance in your AI tool’s project instructions (`AGENTS.md`, `CLAUDE.md`, or equivalent).
 
+## Included templates
+
+- `CLAUDE.md` and `AGENTS.md` boot configurations
+- `VAULT-INDEX.md` short orientation layer
+- `AGENT-TASKS.md` shared cross-agent queue
+- `DAILY-NOTE.md` append-only daily record
+
 ## Attribution and license
 
 This project is based on Jared Rhodenizer’s AI Memory Vault and is licensed under the same [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Keep attribution, use it noncommercially, and share adaptations under the same license.
