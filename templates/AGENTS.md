@@ -2,6 +2,8 @@
 
 Your external memory is the Obsidian vault at `[VAULT PATH]`. Treat it as the single source of truth shared across AI tools.
 
+`[VAULT PATH]` must be replaced with the person’s confirmed absolute vault path when this file is generated. Do not leave this placeholder in a live `AGENTS.md`.
+
 At the start of every session:
 
 1. Read `VAULT-INDEX.md`.

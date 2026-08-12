@@ -15,9 +15,9 @@ This is an adapted and expanded derivative of [Jared Rhodenizer’s AI Memory Va
 
 ## Use it
 
-1. Read `ai-memory-vault.md` in an AI session with access to an empty or dedicated Obsidian vault.
-2. Answer its discovery questions and confirm the proposed structure before it writes anything.
-3. Put the generated boot guidance in your AI tool’s project instructions (`AGENTS.md`, `CLAUDE.md`, or equivalent).
+1. Open `ai-memory-vault.md` on GitHub and copy the full Builder prompt into an AI session with access to an empty or dedicated vault location.
+2. Give the Builder the exact absolute vault path, answer its discovery questions, and confirm the proposed structure before it writes anything.
+3. The Builder creates a vault-root `AGENTS.md` with that real path inserted. If you use Claude, it can also create the matching `CLAUDE.md`.
 
 ## Included templates
 

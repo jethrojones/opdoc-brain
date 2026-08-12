@@ -21,6 +21,8 @@ Build an Obsidian vault that serves as the durable, shared memory for every AI t
 
 Confirm vault read/write access. If `VAULT-INDEX.md` already exists, do not overwrite it. Ask whether to extend, migrate, or stop.
 
+First ask for the exact absolute local path where the vault will live. Repeat that path back and get confirmation before creating files. Never leave `[VAULT PATH]` or another placeholder in a generated instruction file.
+
 Interview the person about: their name and preferred agent behavior, active ventures and projects, key people, current priorities, recurring work, writing preferences, and which AI tools will share the vault.
 
 Show the proposed structure and wait for an explicit yes before creating files.
@@ -29,12 +31,14 @@ Show the proposed structure and wait for an explicit yes before creating files.
 
 Create `VAULT-INDEX.md`, `Active Priorities.md`, `00 - Inbox/Agent Tasks.md`, `01 - Daily Notes/`, project folders, `07 - Personal/`, `08 - Archive/`, and `09 - Resources/`. Add a folder index whenever an area becomes substantial.
 
-Create boot guidance from `templates/AGENTS.md`. It must point every AI to the vault and require this startup sequence:
+Create `AGENTS.md` in the vault root from `templates/AGENTS.md`. Replace `[VAULT PATH]` with the confirmed absolute path to this person’s vault before writing the file. The generated `AGENTS.md` must point every AI to that exact vault and require this startup sequence:
 
 1. Read `VAULT-INDEX.md`.
 2. Read yesterday's daily note.
 3. Read `Active Priorities.md`.
 4. Read `00 - Inbox/Agent Tasks.md`.
+
+If the person uses Claude, also create `CLAUDE.md` in the vault root from `templates/CLAUDE.md`, replacing `[VAULT PATH]`, `[AGENT NAME]`, `[ROLE]`, and `[PERSON NAME]` with the person’s confirmed values. Do not create these files until after the person approves the proposed structure.
 
 ## Operating rules
 
