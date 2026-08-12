@@ -26,6 +26,10 @@ This is an adapted and expanded derivative of [Jared Rhodenizer’s AI Memory Va
 - `AGENT-TASKS.md` shared cross-agent queue
 - `DAILY-NOTE.md` append-only daily record
 
+## See a working example
+
+Open the fully fictional [Sample Brain Vault](https://github.com/jethrojones/sample-brain-vault) to see the structure, links, daily notes, projects, people, tasks, and Obsidian starter settings in context.
+
 ## Attribution and license
 
 This project is based on Jared Rhodenizer’s AI Memory Vault and is licensed under the same [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Keep attribution, use it noncommercially, and share adaptations under the same license.
