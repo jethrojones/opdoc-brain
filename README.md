@@ -18,10 +18,12 @@ This is an adapted and expanded derivative of [Jared Rhodenizer’s AI Memory Va
 1. Open `ai-memory-vault.md` on GitHub and copy the full Builder prompt into an AI session with access to an empty or dedicated vault location.
 2. Give the Builder the exact absolute vault path, answer its discovery questions, and confirm the proposed structure before it writes anything.
 3. The Builder creates a vault-root `AGENTS.md` with that real path inserted. If you use Claude, it can also create the matching `CLAUDE.md`.
+4. As the required final setup step, the Builder installs the same guidance for every session of each applicable tool: Codex at `~/.codex/AGENTS.md` and Claude Code at `~/.claude/CLAUDE.md`. It appends or updates only its marked AI Memory Vault block and preserves any other instructions. If it cannot write a file, it gives you the exact block to paste there.
 
 ## Included templates
 
-- `CLAUDE.md` and `AGENTS.md` boot configurations
+- `CLAUDE.md` and `AGENTS.md` vault-root boot configurations
+- `TOOL-WIDE-VAULT-GUIDANCE.md`, the safe append-only block for `~/.codex/AGENTS.md` and `~/.claude/CLAUDE.md`
 - `VAULT-INDEX.md` short orientation layer
 - `AGENT-TASKS.md` shared cross-agent queue
 - `DAILY-NOTE.md` append-only daily record
